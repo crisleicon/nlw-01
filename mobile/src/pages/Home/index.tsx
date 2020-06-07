@@ -41,7 +41,7 @@ const Home = () => {
         <View style={styles.footer}>
           <TextInput
             style={styles.input}
-            placeholder='Digire a UF'
+            placeholder='Digite a UF'
             value={uf}
             autoCapitalize="characters"
             maxLength={2}
@@ -50,7 +50,7 @@ const Home = () => {
           />
           <TextInput
             style={styles.input}
-            placeholder='Digire a Cidade'
+            placeholder='Digite a Cidade'
             value={city}
             autoCorrect={false}
             onChangeText={setCity}
